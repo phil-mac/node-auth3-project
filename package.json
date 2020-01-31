@@ -1,0 +1,29 @@
+{
+  "name": "auth3-project",
+  "version": "1.0.0",
+  "description": "auth3",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "knex": "^0.20.8",
+    "knex-cleaner": "^1.3.0",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phil-mac/node-auth3-project.git"
+  },
+  "author": "Phil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phil-mac/node-auth3-project/issues"
+  },
+  "homepage": "https://github.com/phil-mac/node-auth3-project#readme"
+}
